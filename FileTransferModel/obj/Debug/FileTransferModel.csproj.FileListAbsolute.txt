@@ -1,0 +1,6 @@
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferModel\bin\Debug\FileTransferModel.XML
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferModel\bin\Debug\FileTransferModel.dll
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferModel\bin\Debug\FileTransferModel.pdb
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferModel\obj\Debug\FileTransferModel.csprojResolveAssemblyReference.cache
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferModel\obj\Debug\FileTransferModel.dll
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferModel\obj\Debug\FileTransferModel.pdb

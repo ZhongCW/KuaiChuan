@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileTransferDAL</name>
+    </assembly>
+    <members>
+        <member name="T:FileTransfer.DAL.FileManager">
+            <summary>
+            文件操作类
+            </summary>
+        </member>
+        <member name="M:FileTransfer.DAL.FileManager.getFileInfo(System.String[])">
+            <summary>
+            获取数组当中的文件的信息
+            </summary>
+            <param name="names">文件地址数组</param>
+            <returns>储存文件信息的集合</returns>
+        </member>
+        <member name="M:FileTransfer.DAL.FileManager.GetDirectoryLength(System.String)">
+            <summary>
+            根据文件夹地址获取文件夹大小
+            </summary>
+            <param name="dirPath">文件夹地址</param>
+            <returns>文件夹大小</returns>
+        </member>
+        <member name="M:FileTransfer.DAL.FileManager.Bytes2File(System.Byte[],System.String)">
+            <summary>
+            将byte数组转换为文件并保存到指定地址
+            </summary>
+            <param name="buff">byte数组</param>
+            <param name="savepath">保存地址</param>
+        </member>
+        <member name="M:FileTransfer.DAL.FileManager.File2Bytes(System.String)">
+            <summary>
+            将文件转换为byte数组
+            </summary>
+            <param name="path">文件地址</param>
+            <returns>转换后的byte数组</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,12 @@
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferBLL.XML
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferBLL.dll
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferBLL.pdb
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferDAL.dll
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferModel.dll
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferDAL.pdb
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferDAL.xml
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferModel.pdb
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\bin\Debug\FileTransferModel.xml
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\obj\Debug\FileTransferBLL.csprojResolveAssemblyReference.cache
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\obj\Debug\FileTransferBLL.dll
+D:\S2\俄罗斯方块项目\文件传输代码\快传\FileTransferBLL\obj\Debug\FileTransferBLL.pdb

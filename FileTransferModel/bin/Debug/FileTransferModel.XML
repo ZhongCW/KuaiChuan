@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileTransferModel</name>
+    </assembly>
+    <members>
+        <member name="T:FileTransfer.Model.TransferFileInfo">
+            <summary>
+            文件信息类
+            </summary>
+        </member>
+        <member name="P:FileTransfer.Model.TransferFileInfo.FileName">
+            <summary>
+            文件名称
+            </summary>
+        </member>
+        <member name="P:FileTransfer.Model.TransferFileInfo.FilePath">
+            <summary>
+            文件路径
+            </summary>
+        </member>
+        <member name="P:FileTransfer.Model.TransferFileInfo.FileType">
+            <summary>
+            文件类型
+            </summary>
+        </member>
+        <member name="P:FileTransfer.Model.TransferFileInfo.FileSize">
+            <summary>
+            文件大小（KB）
+            </summary>
+        </member>
+        <member name="P:FileTransfer.Model.ListenerIP.ip">
+            <summary>
+            本机IP
+            </summary>
+        </member>
+        <member name="P:FileTransfer.Model.ListenerIP.port">
+            <summary>
+            连接端口
+            </summary>
+        </member>
+    </members>
+</doc>

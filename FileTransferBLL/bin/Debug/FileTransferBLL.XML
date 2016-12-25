@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileTransferBLL</name>
+    </assembly>
+    <members>
+        <member name="T:FileTransfer.BLL.ClientManager">
+            <summary>
+            客户端管理
+            </summary>
+        </member>
+        <member name="M:FileTransfer.BLL.ClientManager.connectListener(System.String,System.String)">
+            <summary>
+            连接服务器
+            </summary>
+            <param name="ip">IP地址</param>
+            <param name="port">端口</param>
+            <returns>true：连接成功</returns>
+        </member>
+        <member name="M:FileTransfer.BLL.ClientManager.blackConnectListener">
+            <summary>
+            断开与listener的连接
+            </summary>
+            <returns>false:当前未连接服务器</returns>
+        </member>
+        <member name="P:FileTransfer.BLL.ClientManager.client">
+            <summary>
+            客户端对象
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ClientManager.hasConnectListener">
+            <summary>
+            是否与listener连接
+            </summary>
+        </member>
+        <member name="T:FileTransfer.BLL.ListenerAndClientManager">
+            <summary>
+            管理父类
+            </summary>
+        </member>
+        <member name="T:FileTransfer.BLL.ListenerManager">
+            <summary>
+            服务器端管理
+            </summary>
+        </member>
+        <member name="M:FileTransfer.BLL.ListenerManager.startListener">
+            <summary>
+            开始侦听
+            </summary>
+            <returns>true：开启成功，正在侦听</returns>
+        </member>
+        <member name="M:FileTransfer.BLL.ListenerManager.closeListener">
+            <summary>
+            关闭侦听
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FileTransfer.BLL.ListenerManager.getClient">
+            <summary>
+            获取连接的套接字（客户端）
+            </summary>
+        </member>
+        <member name="M:FileTransfer.BLL.ListenerManager.getClientInfo">
+            <summary>
+            侦听客户端上传的信息
+            </summary>
+        </member>
+        <member name="M:FileTransfer.BLL.ListenerManager.getConnectInfo(System.String@,System.String@,System.Int32@,System.Int32@)">
+            <summary>
+            获取当前listener连接信息
+            </summary>
+            <param name="IP"></param>
+            <param name="Port"></param>
+            <param name="ClientCount"></param>
+            <param name="ClientDownCount"></param>
+        </member>
+        <member name="M:FileTransfer.BLL.ListenerManager.fileInfoLoadDgv(System.String[])">
+            <summary>
+            获取要加载到dgv的文件信息
+            </summary>
+            <param name="names">文件名称数组</param>
+            <returns>文件信息集合</returns>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.IPLocal">
+            <summary>
+            本机IP地址
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.Port">
+            <summary>
+            连接端口
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.Listener">
+            <summary>
+            服务器对象
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.hasStartListener">
+            <summary>
+            记录是否正在侦听
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.clients">
+            <summary>
+            客户端集合
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.AcceptClient">
+            <summary>
+            获取套接字(客户端)线程
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.AcceptClientInfo">
+            <summary>
+            侦听套接字(客户端)线程
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.hasClientManaged">
+            <summary>
+            判断最新获得的client对象是否已经处理（是否正在侦听上传信息）
+            </summary>
+        </member>
+        <member name="P:FileTransfer.BLL.ListenerManager.FileBuff">
+            <summary>
+            上传文件集合
+            </summary>
+        </member>
+    </members>
+</doc>
